@@ -1,0 +1,40 @@
+questions to ask
+
+1) why do i need a rigidbody on one of two objects for OnTriggerEnter() to work?
+2) Portal script only works if I set the ai GameObject to the clone.
+3) if the ai is teleported to the other portal, how do i "reset" its waypoint index to the correct one?
+
+
+1) Elevator pitch of game idea
+- It is a tower defense game with a secondary mechanic inspired by the game "Portal". As one of the "towers", 
+the player can place portals on the map that can teleport the enemies from point A to B. 
+ 
+2) Be able describe your core and secondary mechanics
+Core - 		Spawning of enemies, eliminating enemies with attacks from "towers"
+Secondary - 	Portals that can teleport enemies from point A to B, 
+		upgradable attack range of towers with coins, 
+		different types of towers (attacking type, coin-farming type, trap type)
+
+3) Describe your progress
+- I can spawn enemies
+- I have portals that teleport the enemies from point A to B.
+
+4) Describe your next steps
+- implement coin feature
+- implement life feature
+- implement tower attacks
+
+
+1) grab the two nearest waypoints from the enemy
+2) choose the waypoint that has the higher index
+
+
+
+PROGRESS
+1) Portal
+	- Problems
+		- if i place the PortalOut in between index 5 and 6, 
+		the enemy will move towards 5th waypoint rather than 6th waypoint 
+		because it is technically closer.
+
+
